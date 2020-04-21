@@ -1,0 +1,15 @@
+@import "../../Services/variables.scss";
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto 50px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.noReviews {
+  font-weight: bold;
+  font-size: 18px;
+}

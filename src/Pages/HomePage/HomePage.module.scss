@@ -1,0 +1,16 @@
+@import "../../Services/variables.scss";
+
+.container {
+  margin: 0 auto;
+  width: $container-width;
+}
+
+.head {
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+header {
+  border-bottom: 2px solid $prime-color;
+}

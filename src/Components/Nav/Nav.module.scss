@@ -1,0 +1,32 @@
+@import "../../Services/variables.scss";
+
+.container {
+  margin: 0 auto;
+  max-width: $container-width;
+}
+
+.list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.list li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navLink {
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.navLink:hover {
+  color: $color-hover;
+}
+
+.navLinkActive {
+  color: $prime-color;
+}

@@ -1,0 +1,15 @@
+@import "../../Services/variables.scss";
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto 50px;
+}
+
+img {
+  margin: 0;
+}
+
+.p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
